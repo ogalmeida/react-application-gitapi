@@ -13,9 +13,10 @@ Primeiro você deve clonar o repositório, usando o comando abaixo (usando https
 git clone https://github.com/ogalmeida/react-application-gitapi.git
 ```
 
-Depois de clonar, deve-se instalar todas as dependências do projeto. Para essa ação, usaremos o [yarn](https://yarnpkg.com/):
+Depois de clonar, acesse o repositório e instale as dependências (para isso usaremos o yarn), utilizando os comandos abaixo:
 
 ```bash
+cd react-application-gitapi
 yarn install
 ```
 
