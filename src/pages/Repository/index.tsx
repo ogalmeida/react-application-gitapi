@@ -50,7 +50,7 @@ const Repository: React.FC = () => {
     <>
       <Header>
         <img src={LogoImage} alt="Github finder logo" />
-        <Link to={`${repository?.owner.login}`}>
+        <Link to={`/${repository?.owner.login}`}>
           <FiArrowLeft size={20} />
           Voltar
         </Link>

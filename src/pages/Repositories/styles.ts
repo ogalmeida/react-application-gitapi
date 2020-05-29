@@ -1,5 +1,9 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { tint } from 'polished';
+
+interface InputProps {
+  hasError: boolean;
+}
 
 export const Header = styled.header`
   display: flex;
@@ -78,6 +82,33 @@ export const UserInfo = styled.section`
   }
 `;
 
+export const Input = styled.div<InputProps>`
+  display: flex;
+  align-items: center;
+  color: #a8a8b3;
+  border: 2px solid #fff;
+  background: #fff;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 16px;
+
+  ${props => props.hasError && css`border-color: #c53030;`}
+
+  svg {
+    margin-left: 12px;
+  }
+
+  input {
+    flex: 1;
+    border: 0;
+    padding: 18px;
+
+    &::placeholder {
+      color: #a8a8b3;
+    }
+  }
+`;
+
 export const Repositories = styled.div`
   margin-top: 64px;
   color: #3a3a3a;
@@ -129,4 +160,10 @@ export const Repositories = styled.div`
       margin-left: auto;
     }
   }
+`;
+
+export const Error = styled.span`
+  display: block;
+  color: #c53030;
+  margin-top: 8px;
 `;
