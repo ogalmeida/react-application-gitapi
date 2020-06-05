@@ -1,7 +1,7 @@
 
 ## Projeto React
 
-Esse projeto é uma simpes aplicação web desenvolvida com React, usando também a API disponibilizada pelo GitHub. Essa aplicação é baseada em um projeto criado pela Rockesteat.
+Esse projeto é uma simpes aplicação web desenvolvida com React, usando também a API disponibilizada pelo GitHub. Essa aplicação é baseada em um projeto criado pela Rockesteat. Clique [aqui](https://dazzling-hawking-a539f2.netlify.app/) para ver uma demo.
 
 Para executar essa aplicação em sua máquina local, siga os seguintes passos:
 
